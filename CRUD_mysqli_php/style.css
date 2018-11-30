@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0
+}
+
+body {
+  font-family: 'Slabo 27px', serif;
+  font-size: 14;
+  line-height: 18px;
+  color: #000;
+  background: url(images/bg.png)repeat fixed 0 0 #fff;
+}
+
+.template {
+  width: 960px;
+  background: #ddd;
+  margin: 0 auto;
+}
+
+.contemplate {
+  width: 960px;
+  background: #ddd;
+  margin: 0 auto;
+}
+
+.clear {
+  overflow: hidden;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  padding: 10px;
+  margin-bottom: 6px;
+  width: 300px;
+  border: 1px solid #FDF650;
+  border-radius: 3px;
+}
+
+.headersection {
+  background: #1ABC9C;
+  color: #fff;
+  height: 177px;
+}
+
+.logo {
+  
+}
+
+.logo h2 {
+  font-size: 38px;
+  line-height: 177px;
+  text-align: center;
+}
+
+
+.contentsection {
+  background: #ffffff;
+  border: 1px solid #B5801D;
+  z-index: 0;
+}
+
+.maincontent {
+  width: 960px;
+  background: #FDF5E6;
+  
+  margin-right: 10px;
+  border: 1px solid #DEDEDE;
+  z-index: 0;
+}
+
+.maincontent a {
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.footersection {
+  height: 90px;
+  background: #1ABC9C;
+}
+
+.footersection p {
+  color: #ffffff;
+  line-height: 90px;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+/*table design for database table*/
+.tblone {
+  width: 100%;
+  border: 1px solid #000;
+  margin: 20px 0;
+}
+
+.tblone th {
+  border: 1px dashed #000;  
+}
+.tblone td {
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+table.tblone tr:nth-child(2n+1) {
+  background: #fff;
+  height: 30px;
+}
+
+table.tblone tr:nth-child(2n) {
+  background: #f1f1f1;
+  height: 30px;
+}
